@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6{
     color: var(--primary-color);
 }
 header{
-    padding: 10px
-    background-color= var(--accent1-color)
+    padding: 10px;
+    background-color= var(--accent1-color);
 
 }
 p{
@@ -45,7 +45,7 @@ nav a{
     text-decoration: none;
     padding:1rem;
 }
-nav a:link, nav a:visted {
+nav a:link, nav a:visited {
     color: var(--nav-link-color);
 }
 
