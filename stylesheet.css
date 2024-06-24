@@ -9,7 +9,7 @@ nav {
     padding:10px;
     display: block;
 }
-main{max-width: 840px;
+main {max-width: 840px;
 }
 nav a {
     color: white;
@@ -26,7 +26,7 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px black; 
 }
-main img{
+main img {
     width:150px;
     height:auto;
     border: 1px solid darkblue;
@@ -36,22 +36,22 @@ main img{
     margin:0 0 1rem 1rem;
 }
 
-aside{
+aside {
     width: 20rem;
     text-align: center;
     position: relative;
     }
-aside h2{
+aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
 }
-aside img{
+aside img {
     max-width:200px;
     height:auto;
     }
 
-p{ 
+p { 
     padding : 0px;
     }
 footer {
@@ -59,7 +59,7 @@ footer {
     border-top: 1px solid #000;
     text-align: center;
 }
-/*class selectors*/
+/*Class Selectors*/
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
