@@ -43,11 +43,12 @@ aside {
     }
 aside h2 {
     position: absolute;
+    font-size: medium;
     top: 47px;
     left: 150px;
 }
 aside img {
-    max-width:200px;
+    max-width: 350px;
     height:auto;
     }
 
