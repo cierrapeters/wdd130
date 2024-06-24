@@ -30,7 +30,7 @@ img {
     margin:0 0 1rem 1rem;
 }
 main img {
-    width:150px;
+    width:250px;
     height:auto;
     border: 1px solid darkblue;
     padding: 2px;
@@ -51,7 +51,7 @@ aside {
     left: 150px;
     }
 aside img {
-    max-width: 350px;
+    max-width: 250px;
     height:auto;
     }
 
