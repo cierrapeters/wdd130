@@ -19,6 +19,17 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display:flex;
+}
+nav a{
+    display:block;
+    color:var(--nav-link-color);
+    text-decoration: none;
+    padding:1rem;
+}
 
 p{
     padding:15px;
@@ -36,6 +47,5 @@ article{
     background-color: var(--primary-color);
 }
 article img{
-    float:right;
-    
+    float:right;  
 }
