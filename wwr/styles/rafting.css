@@ -21,6 +21,7 @@ h1, h2 {
 }
 p{
     padding:15px;
+    font: var(--paragraph-font);
     font-size: medium;
     color:black
 }
