@@ -10,6 +10,7 @@ nav a {
     color: rgb(44, 144, 155);
     padding: 10px;
     display:block;
+    background-color: steelblue;
 }
 * {
     margin: 0;
@@ -48,6 +49,7 @@ aside {
     font-size: medium;
     top: 100px;
     left: 100px;
+    background-color: none;
     }
 aside img {
     max-width: 250px;
