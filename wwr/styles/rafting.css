@@ -43,7 +43,7 @@ p{
     color:black;
 }
 img{
-    padding: 2px;
+    padding: 5px;
     display:block;
     max-width:250px;
     height:auto;
@@ -55,6 +55,7 @@ img{
     position: relative;
 }
 article{
+    margin: 10px;
     position:absolute;
     background-color: var(--primary-color);
     border:1px solid black;
