@@ -13,43 +13,27 @@
     --nav-link-color:#5d737e;
     --nav-hover-link-color:#FAF33E;
     --nav-hover-background-color: #D6f8d6;
-
 }
-
-body{
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding:20px;
-}
-
-h1, h2, h3, h4, h5, h6{
+h1, h2 {
+    position:center absolute;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
-header{
-    padding: 10px;
-    background-color:var(--accent1-color);
-
-}
 p{
     padding:15px;
+    font-size: medium;
+    color:black
 }
-nav{
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display:flex;
-}
-nav a{
+.hero img{
     display:block;
-    color:var(--nav-link-color);
-    text-decoration: none;
-    padding:1rem;
+    width:100%;
+    height: auto;
 }
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+article{
+    position:absolute;
+    background-color: var(--primary-color);
+    opacity: var(--accent1-color);
 }
-
-nav a:hover {
-    color:var(--nav-hover-link-color);
-background-color: var(--nav-hover-background-color);
+article img{
+    float:right
 }
