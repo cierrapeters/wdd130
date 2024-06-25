@@ -29,7 +29,7 @@ img {
     margin:0 0 1rem 1rem;
 }
 main img {
-    width:150px;
+    width:200px;
     height:auto;
     border: 1px solid darkblue;
     padding: 2px;
@@ -56,6 +56,7 @@ aside img {
 
 p { 
     padding : 0px;
+    font-size: medium;
     }
 footer {
     margin-top: 1em;
@@ -66,7 +67,7 @@ footer {
 .box {
     margin: 1rem;
     border: 1px solid rgba(0,0,0,.1);
-    padding: 3rem;
+    padding: 2rem;
     background-color: white;
     color:#000;
 }
