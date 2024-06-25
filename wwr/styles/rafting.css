@@ -19,11 +19,12 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
+
 p{
     padding:15px;
     font: var(--paragraph-font);
     font-size: medium;
-    color:black
+    color:black;
 }
 .hero img{
     display:block;
@@ -36,5 +37,6 @@ article{
     opacity: var(--accent1-color);
 }
 article img{
-    float:right
+    float:right;
+    
 }
