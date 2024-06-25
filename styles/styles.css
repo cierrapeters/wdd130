@@ -47,10 +47,10 @@ aside {
     position: absolute;
     font-size: medium;
     top: 75px;
-    left: 175px;
+    left: 150px;
     }
 aside img {
-    max-width: 120px;
+    max-width: 250px;
     height:auto;
     }
 
