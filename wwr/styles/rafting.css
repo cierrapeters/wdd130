@@ -14,8 +14,13 @@
     --nav-hover-link-color:#FAF33E;
     --nav-hover-background-color: #D6f8d6;
 }
-h1, h2 {
+h1 {
     position:absolute;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+h2{
+    position: absolute;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
