@@ -15,7 +15,7 @@
     --nav-hover-background-color: #D6f8d6;
 }
 h1, h2 {
-    position:center absolute;
+    position:absolute;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -34,7 +34,6 @@ p{
 article{
     position:absolute;
     background-color: var(--primary-color);
-    opacity: var(--accent1-color);
 }
 article img{
     float:right;
