@@ -7,7 +7,7 @@ nav {
 main {max-width: 840px;
 }
 nav a {
-    color: white;
+    color: rgb(44, 144, 155);
     padding: 10px;
     display:block;
 }
@@ -50,7 +50,7 @@ aside {
     left: 175px;
     }
 aside img {
-    max-width: 150px;
+    max-width: 120px;
     height:auto;
     }
 
