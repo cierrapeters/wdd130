@@ -35,7 +35,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px black;
     float:right;
-    margin:0 0 1rem 1rem;
+    margin:0 0 2rem 2rem;
 }
 
 aside {
@@ -46,8 +46,8 @@ aside {
     aside h2 {
     position: absolute;
     font-size: medium;
-    top: 75px;
-    left: 150px;
+    top: 85px;
+    left: 120px;
     }
 aside img {
     max-width: 250px;
