@@ -43,6 +43,7 @@ p{
     color:black;
 }
 img{
+    padding: 2px;
     display:block;
     max-width:250px;
     height:auto;
