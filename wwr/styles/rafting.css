@@ -51,7 +51,7 @@ p {
 }
 article  {
     margin: 25px;
-    position:absolute; left:10%; top:20%;
+    position:absolute; top:25%;
     background-color: var(--primary-color);
     border:1px solid black;
 }
@@ -73,4 +73,5 @@ img{
 }
 .socials{
     position: center;
+    width: 75px;
 }
