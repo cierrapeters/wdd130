@@ -14,12 +14,8 @@
     --nav-hover-link-color:#FAF33E;
     --nav-hover-background-color: #D6f8d6;
 }
-h1 {
-    position:absolute;
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-}
-h2, h3, h4, h5, h6 {
+
+h1,h2, h3, h4, h5, h6 {
     position: relative;
     font-family: var(--heading-font);
     color: var(--secondary-color);
@@ -53,7 +49,6 @@ img {
     width:100%;
     height: auto;
     position: absolute;
-    background-image: url("../Images/background.jpg");
 }
 article  {
     margin: 10px;
