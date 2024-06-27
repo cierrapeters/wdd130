@@ -44,11 +44,11 @@ p {
     width:100%;
     height: auto;
     position:relative;
-    opacity: .95;
+    opacity: .8;
 }
 article  {
     margin: 25px;
-    position:absolute; left: 50%;
+    position:absolute; left: 50%; top:50%;
     background-color: var(--primary-color);
     border:1px solid black;
 }
