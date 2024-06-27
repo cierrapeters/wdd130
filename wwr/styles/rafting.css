@@ -36,14 +36,14 @@ nav a {
 p {
     padding:15px;
     font: var(--paragraph-font);
-    font-size: medium;
+    font-size:large;
     color:black;
 }
 .hero img {
     display:block;
     width:100%;
     height: auto;
-    position:absolute;
+    position:relative;
 }
 article  {
     margin: 25px;
@@ -52,13 +52,14 @@ article  {
     border:1px solid black;
 }
 article img {
+    margin: 3px;
     float:right;
-    width: 100px;  
+    width: 150px;  
 }
 section{
     position: relative;
     color: black;
-    font-size: medium;
+    font-size: large;
 }
 
 img{
