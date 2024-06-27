@@ -45,7 +45,9 @@ p {
     height: auto;
     position:relative;
     background-image: url(https://images.ctfassets.net/0wjmk6wgfops/68vu3F9cYzgU9Zpdv37SvP/2427b659895baf36d3b33423f1622348/AdobeStock_648660265.jpeg?w=1920&h=501&fit=fill&f=center&q=70);
-    opacity: .8;
+    background-repeat: no-repeat;
+    background-position: center;
+    color:transparent;
 }
 article  {
     margin: 25px;
