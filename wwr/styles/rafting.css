@@ -45,11 +45,10 @@ img {
     max-width:250px;
     height:auto;
 }
-.H {
+.hero img {
     display:block;
     width:1000px;
     height: auto;
-    position: absolute;
 }
 article  {
     margin: 10px;
