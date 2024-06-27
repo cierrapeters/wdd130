@@ -66,12 +66,12 @@ section{
     font-size: large;
 }
 
-img{
-    width: 200px;
+h2 img{
+    width: 400px;
     height: auto;
     position:left;
 }
-.socials img{
+img{
     position: center;
     width:150px;
 }
