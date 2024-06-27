@@ -51,7 +51,7 @@ p {
 }
 article  {
     margin: 25px;
-    position:absolute; left: 20%; top:50%;
+    position:absolute; left:10%; top:20%;
     background-color: var(--primary-color);
     border:1px solid black;
 }
