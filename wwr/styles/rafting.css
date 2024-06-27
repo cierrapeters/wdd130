@@ -44,11 +44,12 @@ p {
     width:100%;
     height: auto;
     position:relative;
+    background-image: url(https://images.ctfassets.net/0wjmk6wgfops/68vu3F9cYzgU9Zpdv37SvP/2427b659895baf36d3b33423f1622348/AdobeStock_648660265.jpeg?w=1920&h=501&fit=fill&f=center&q=70);
     opacity: .8;
 }
 article  {
     margin: 25px;
-    position:absolute; left: 50%; top:50%;
+    position:absolute; left: 20%; top:50%;
     background-color: var(--primary-color);
     border:1px solid black;
 }
