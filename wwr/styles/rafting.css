@@ -17,6 +17,7 @@
 
 h1,h2, h3, h4, h5, h6 {
     position: relative;
+    position:center;
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
@@ -48,7 +49,7 @@ img {
     display:block;
     width:100%;
     height: auto;
-    position: relative;
+    position: absolute;
 }
 article  {
     margin: 10px;
