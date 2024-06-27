@@ -47,13 +47,13 @@ img {
 }
 .hero{
     display:block;
-    width:100%;
+    width:1000px;
     height: auto;
-    position: relative;
+    position: absolute;
 }
 article  {
     margin: 10px;
-    position:absolute;
+    position:relative;
     background-color: var(--primary-color);
     border:1px solid black;
 }
