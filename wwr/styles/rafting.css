@@ -43,6 +43,7 @@ p {
     display:block;
     width:1000px;
     height: auto;
+    position:absolute;
 }
 article  {
     margin: 25px;
@@ -60,7 +61,11 @@ section{
     font-size: medium;
 }
 
-
+img{
+    width: 200px;
+    height: auto;
+    position:left;
+}
 .socials{
     position: center;
 }
