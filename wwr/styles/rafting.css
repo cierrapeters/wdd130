@@ -52,13 +52,13 @@ img {
 }
 article  {
     margin: 10px;
-    position:relative;
+    position:absolute;
     background-color: var(--primary-color);
     border:1px solid black;
 }
 article img {
     float:right;
-    width: 150px;  
+    width: 100px;  
 }
 section{
     position: relative;
