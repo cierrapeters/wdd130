@@ -65,3 +65,8 @@ article img {
     float:right;
     width: 150px;  
 }
+section{
+    position: absolute;
+    color: black;
+    font-size: medium;
+}
