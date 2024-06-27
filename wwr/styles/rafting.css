@@ -49,11 +49,11 @@ img {
     display:block;
     width:100%;
     height: auto;
-    position: absolute;
+    position: relative;
 }
 article  {
     margin: 10px;
-    position:relative;
+    position:absolute;
     background-color: var(--primary-color);
     border:1px solid black;
 }
@@ -65,4 +65,7 @@ section{
     position: relative;
     color: black;
     font-size: medium;
+}
+.social{
+    position: center;
 }
