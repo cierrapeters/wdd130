@@ -52,7 +52,7 @@ img {
     display:block;
     width:100%;
     height: auto;
-    position: relative;
+    position: absolute;
     background-image: url("../Images/background.jpg");
 }
 article  {
