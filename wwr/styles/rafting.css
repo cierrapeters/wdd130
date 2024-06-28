@@ -67,11 +67,11 @@ section{
 }
 
 section img{
-    width: 400px;
+    width: 600px;
     height: auto;
     position:left;
 }
 img{
     position: center;
-    width:150px;
+    width:50px;
 }
