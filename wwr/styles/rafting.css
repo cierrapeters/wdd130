@@ -72,10 +72,6 @@ section img{
     position:left;
 }
 img{
-    width:50px;
-    height: auto;
-}
-nav img{
-    width: 150px;
+    width:150px;
     height: auto;
 }
