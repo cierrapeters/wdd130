@@ -69,6 +69,7 @@ section{
     position: relative;
     color: black;
     font-size: large;
+    border-color: black;
 }
 
 section img{
