@@ -20,6 +20,11 @@ h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
+.gridnav{
+    display:grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+}
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
