@@ -22,8 +22,8 @@ h1,h2, h3, h4, h5, h6 {
 
 .grid {
     display:grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% ;
     gap: 5%;
 }
 .logo{
@@ -31,19 +31,19 @@ h1,h2, h3, h4, h5, h6 {
     grid-row:3/7
 }
 .one {
-    grid-column: 5/6;
+    grid-column: 4/5;
     grid-row:4/6;
 }
 .two{
-    grid-column: 6/7;
+    grid-column: 5/6;
     grid-row: 4/6;
 }
 .three{
-    grid-column: 7/8;
+    grid-column: 6/7;
     grid-row: 4/6;
 }
 .four{
-    grid-column: 8/9;
+    grid-column: 7/8;
     grid-row: 4/6;
 }
 nav {
