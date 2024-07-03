@@ -23,9 +23,12 @@ h1,h2, h3, h4, h5, h6 {
 .gridnav{
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
-    grid-template-rows: 20% 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+
 }
 nav {
+    display:grid;
+    grid-template-columns: ;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
@@ -56,9 +59,8 @@ p {
 }
 article  {
     margin: 25px;
-    position:absolute;left:5%; top:30%;
-    background-color: var(--primary-color);
-    border:1px solid black;
+    position:absolute;
+    border:1px, solid black;
 }
 article img {
     margin: 3px;
