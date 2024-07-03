@@ -78,7 +78,7 @@ p {
 article  {
     margin: 25px;
     position:absolute;
-    border:1px, black;
+    border:black;
 }
 article img {
     margin: 3px;
@@ -101,3 +101,4 @@ img{
     width:150px;
     height: auto;
 }
+.socials{}
