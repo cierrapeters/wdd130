@@ -76,7 +76,7 @@ p {
 article  {
     margin: 25px;
     position:absolute;
-    border-style:solid,black;
+    border-style:solid;
 }
 article img {
     margin: 3px;
