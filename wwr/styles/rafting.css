@@ -84,6 +84,7 @@ article img {
     width: 150px;  
 }
 section{
+    position: relative;
     color: black;
     font-size: large;
     border-color: black;
