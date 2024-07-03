@@ -48,11 +48,8 @@ h1,h2, h3, h4, h5, h6 {
     grid-row: 4/6;
 }
 nav {
-    display:grid;
-    grid-template-columns: ;
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display:flex;
 }
 nav a {
     display:block;
@@ -81,7 +78,7 @@ p {
 article  {
     margin: 25px;
     position:absolute;
-    border:1px, solid, black;
+    border:1px, black;
 }
 article img {
     margin: 3px;
