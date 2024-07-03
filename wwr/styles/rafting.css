@@ -98,4 +98,11 @@ img{
     width:150px;
     height: auto;
 }
-.socials{}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+}
+.six{
+    display:flex;
+    justify-content: center;
+}
