@@ -98,7 +98,7 @@ section img{
 }
 img{
     display:flex;
-    width:150px;
+    width:250px;
     height: auto;
 }
 .socials{
@@ -106,7 +106,7 @@ img{
     justify-content: flex-end;
     width: 10px;
 }
-.six{
+.five{
     display:flex;
     justify-content: center;
 }
