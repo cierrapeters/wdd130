@@ -97,6 +97,7 @@ section img{
 
 }
 img{
+    display:flex;
     width:150px;
     height: auto;
 }
