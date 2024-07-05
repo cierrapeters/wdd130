@@ -92,7 +92,7 @@ section{
 
 section img{
     display: flex;
-    width: 200px;
+    width: 450px;
     height: auto;
 
 }
@@ -103,8 +103,8 @@ img{
 }
 .socials img{
     display: flex;
-    justify-content: flex-end;
-    width: 10px;
+    align-content:flex-end;
+    width: 50px;
 }
 .five{
     display:flex;
