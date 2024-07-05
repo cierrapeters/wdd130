@@ -101,9 +101,10 @@ img{
     width:250px;
     height: auto;
 }
-.socials{
+.socials img{
     display: flex;
-       width: 10px;
+    justify-content: flex-end;
+    width: 10px;
 }
 .five{
     display:flex;
