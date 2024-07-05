@@ -87,11 +87,12 @@ section{
     position: relative;
     color: black;
     font-size: large;
-    border-color: black;
+    border-color: solid;
 }
 
 section img{
     display: flex;
+    justify-content: flex-start;
     width: 450px;
     height: auto;
 
@@ -103,7 +104,7 @@ img{
 }
 .socials img{
     display: flex;
-    align-content:flex-end;
+    justify-content: left;
     width: 50px;
 }
 .five{
