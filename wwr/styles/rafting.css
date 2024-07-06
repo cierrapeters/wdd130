@@ -25,9 +25,9 @@ h1,h2, h3, h4, h5, h6 {
 
 .grid {
     display:grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% ;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 20% 20% 20% 20% ;
-    gap: 5%;
+    gap: 1%;
 }
 .logo{
     grid-column:1/2;
