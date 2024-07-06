@@ -98,7 +98,7 @@ section{
     margin: 5px;
 }
 
-section img{
+section figure img {
     display: inline;
     width: 450px;
     height: auto;
@@ -117,7 +117,7 @@ img{
 }
 .socials img{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 50px;
 }
 .five{
