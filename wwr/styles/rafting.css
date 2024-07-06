@@ -67,7 +67,7 @@ p {
     margin: 25px;
     width:100%;
     height: auto;
-    position:relative;
+    position:absolute;
     background-image: url(https://images.ctfassets.net/0wjmk6wgfops/68vu3F9cYzgU9Zpdv37SvP/2427b659895baf36d3b33423f1622348/AdobeStock_648660265.jpeg?w=1920&h=501&fit=fill&f=center&q=70);
     background-repeat: no-repeat;
     background-position: center;
@@ -75,7 +75,7 @@ p {
 }
 article  {
     margin: 25px;
-    position:absolute;
+    position:relative;
     border-style:solid;
     background-color: #D6F8D6;
 }
