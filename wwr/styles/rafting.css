@@ -19,6 +19,8 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
     border-bottom: darkblue;
+    display:flex;
+    justify-content: center;
 }
 
 .grid {
@@ -92,7 +94,7 @@ section{
     color: black;
     font-size: large;
     border-style: solid;
-    padding: 5px;
+    margin: 5px;
 }
 
 section img{
