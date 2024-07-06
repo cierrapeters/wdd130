@@ -18,6 +18,7 @@
 h1,h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    border-bottom: darkblue;
 }
 
 .grid {
@@ -76,6 +77,8 @@ p {
 article  {
     margin: 25px;
     position:absolute;
+    top:15%;
+    left:5% ;
     border-style:solid;
     background-color: #D6F8D6;
 }
