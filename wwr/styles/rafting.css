@@ -92,8 +92,7 @@ section{
 }
 
 section img{
-    display: flex;
-    justify-content: flex-start;
+    display: inline;
     width: 450px;
     height: auto;
 
@@ -103,6 +102,11 @@ img{
     justify-content: flex-start;
     width:250px;
     height: auto;
+}
+.socials{
+    display: flex;
+    justify-content: left;
+    width: 50px; 
 }
 .socials img{
     display: flex;
