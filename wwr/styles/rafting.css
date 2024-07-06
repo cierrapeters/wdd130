@@ -92,6 +92,7 @@ section{
     color: black;
     font-size: large;
     border-style: solid;
+    padding: 5px;
 }
 
 section img{
