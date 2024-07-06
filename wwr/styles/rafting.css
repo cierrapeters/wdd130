@@ -106,18 +106,18 @@ section img{
 }
 img{
     display:flex;
-    justify-content: left;
+    justify-content: right;
     width:250px;
     height: auto;
 }
 .socials{
     display: flex;
-    justify-content: left;
+    justify-content: right;
     width: 50px; 
 }
 .socials img{
     display: flex;
-    justify-content: left;
+    justify-content: right;
     width: 50px;
 }
 .five{
