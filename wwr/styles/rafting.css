@@ -98,25 +98,25 @@ section{
 }
 
 section img{
-    display: block;
+    display: inline;
     width: 450px;
     height: auto;
 
 }
 img{
     display:flex;
-    justify-content: right;
+    justify-content: left;
     width:250px;
     height: auto;
 }
 .socials{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 50px; 
 }
 .socials img{
     display: flex;
-    justify-content: right;
+    justify-content: left;
     width: 50px;
 }
 .five{
