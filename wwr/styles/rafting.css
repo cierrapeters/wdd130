@@ -93,7 +93,7 @@ section{
     position: relative;
     color: black;
     font-size: large;
-    border-color: solid;
+    border-style: solid;
 }
 
 section img{
