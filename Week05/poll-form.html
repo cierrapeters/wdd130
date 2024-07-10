@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>WDD 130 | HTML Form - User Poll</title>
+    </head>
+    <body>
+    <header>
+        <h1>WDD 130 | Cierra Peters | HTML Form- User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+        </form>
+        <form>
+            <fieldset>
+                <legend>Quetions</legend>
+                <label for="browser">What is your Favorite internet broswer?</label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="safari">Safari</option>
+                    <option value="edge">Edge</option>
+                    <option value="brave">Brave</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="pet">Do you have a household pet?"</label>
+                <input type="checkbox" id="pet" name="pet">
+                <label for="feedback">List the places you have lived:</label> 
+                <texttarea id="feedback"name="feedback" rows="4"placeholder= "Huntsville, Utah, St. Geroge Utah, Guangzhou China, Santiago Philippines, Ceder City Utah, Provo Utah, Urdenta Philippines, Albang Phillipines, Davao Philippines"></texttarea>
+            </fieldset>
+            <button type="submit"> Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p> ©️2024 | HTML Form - User Poll Activity | Cierra Peters</p>
+    </footer>
+    </body>
+</html>
