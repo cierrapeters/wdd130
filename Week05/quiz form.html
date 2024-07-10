@@ -15,6 +15,7 @@
             <form>
                 <fieldset>
                    <legend>Questions</legend>
+                   <div>
                     <label for="Q1">1. How many tags are in a regular HTML element?</label>
                     <select id="Q1" name="Q1">
                         <option value="0">0</option>
@@ -22,6 +23,8 @@
                         <option value="2">2</option>
                         <option value="3">3</option>
                     </select>
+                    </div>
+                    <div>
                     <label for="Q2">2. Which code is correct:</label>
                         <input type="radio" id="<html><html>" name="code" value="<html><html>" > 
                             <label for="<html><html>"><html><html></label>
@@ -29,12 +32,15 @@
                             <label for="<html></html>"><html></html></label>
                         <input type="radio" id="<html html>" name="code" value="<htmlhtml>">
                             <label for="<html html>"><html html></label>
-                            <label for="<html></html>"><html></html></label>
-                    <label for="Q3">What does HTML stand for</label> 
+                    </div>
+                    <div>     
+                    <label for="Q3">3.What does HTML stand for</label> 
                     <textarea id="Q3"name="Q3" rows="3" placeholder= "Write answer here"></textarea>
-                    <label for="Q4">Put the correct symbols in the following css code: h1{ margin___ 0rem___}</label> 
+                    </div>
+                    <div>
+                    <label for="Q4">4.Put the correct symbols in the following css code: h1{ margin___ 0rem___}</label> 
                     <text id="Q4" name="Q4" rows="1" placeholder="Write answer here"></text>
-
+                </div>
                 </fieldset>
                 <button type="submit"> Submit Poll</button>
             </form>
