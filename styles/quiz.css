@@ -75,3 +75,9 @@ input[type="radio"]{
     display:flex;
     flex-direction:column;
 }
+input[type="text"]{
+    size: 15em;
+}
+input [type="number"]{
+    size: 25px;
+}
