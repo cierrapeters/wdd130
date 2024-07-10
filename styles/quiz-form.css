@@ -9,13 +9,8 @@
     padding:0;
     box-sizing:border-box;
 }
-h1{
-    font-family: Poppins, serif;
-    font-size: 1.5rem;
-    color:darkblue
-}
 body{
-    font-family:Lato, serif;
+    font-family:Poppin, serif;
     font-size:1.2em;
     color:#333;
     background: #fff;
@@ -79,13 +74,4 @@ footer{
 input[type="radio"]{
     display:flex;
     flex-direction:column;
-}
-input[type="text"]{
-    size: 20em;
-}
-input[type="number"]{
-    size: 100px;
-}
-textarea{
-    size: 25px;
 }
