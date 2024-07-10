@@ -81,11 +81,11 @@ input[type="radio"]{
     flex-direction:column;
 }
 input[type="text"]{
-    size: 30em;
+    resize: 30em;
 }
 input[type="number"]{
-    size: 30em;
+    resize: 30em;
 }
 textarea{
-    size: 25px;
+    resize: 25px;
 }
