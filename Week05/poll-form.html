@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <title>WDD 130 | HTML Form - User Poll</title>
+        <link rel="stylesheet" href="styles/poll-form.css">
     </head>
     <body>
     <header>
@@ -13,12 +14,16 @@
     <main>
         <form>
             <fieldset>
-                <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname">
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail">
-            </fieldset>
+               <legend>Contact Information</legend>
+               <div class="form-item column2">  
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-item column2">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                </fieldset>
         </form>
         <form>
             <fieldset>
@@ -32,10 +37,12 @@
                     <option value="brave">Brave</option>
                     <option value="other">Other</option>
                 </select>
-                <label for="pet">Do you have a household pet?"</label>
-                <input type="checkbox" id="pet" name="pet">
+                    <div class="form-item colum1">
+                    <label for="pet">Do you have a household pet?"</label> 
+                    <input type="checkbox" id="pet" name="pet">
+                </div> 
                 <label for="feedback">List the places you have lived:</label> 
-                <texttarea id="feedback"name="feedback" rows="4"placeholder= "Huntsville, Utah, St. Geroge Utah, Guangzhou China, Santiago Philippines, Ceder City Utah, Provo Utah, Urdenta Philippines, Albang Phillipines, Davao Philippines"></texttarea>
+                <texttarea id="feedback"name="feedback" rows="4" placeholder= "Huntsville, Utah, Guangzhou China, Santiago Philippines, Provo Utah, Urdenta Philippines, Davao Philippines"></texttarea>
             </fieldset>
             <button type="submit"> Submit Poll</button>
         </form>
