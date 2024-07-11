@@ -111,3 +111,9 @@ label[for="useremail"]{
     align-items:center;
     size:1.25em;
 }
+figure{
+    display:flex;
+    flex-direction:row;
+    width:150px;
+    height:auto;
+}
