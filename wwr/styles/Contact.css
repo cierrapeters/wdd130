@@ -123,9 +123,6 @@ input[type="radio"]{
     height:auto;
 }
 .socials img{
-    display:flex;
-    flex-direction:row;
-    justify-content:right;
     width:75px;
     height:auto;
 }
