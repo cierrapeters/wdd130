@@ -55,6 +55,10 @@ h2, h3, h4, h5, h6 {
     grid-column:9/10;
     grid-row:3/5;
 }
+.five{
+    display: flex;
+    justify-content: center;
+}
 nav {
     background-color:var(--nav-background-color);
     font-size: 1.2rem;
@@ -102,7 +106,7 @@ input[type="radio"]{
 .info{
     size:2em;
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 figure img{
@@ -111,15 +115,14 @@ figure img{
     width:250px;
     height:auto;
 }
-footer nav img{
+.socials{
     display:flex;
     justify-content:left;
-    flex-direction:row-reverse;
     width:100px;
     height:auto
 }
 nav img{
-width:100px;
+width:150px;
 }
 fieldset{
     Margin:5px;
