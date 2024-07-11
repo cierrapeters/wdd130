@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+
+:root {
+    --primary-color:#D6F8D6;
+    --secondary-color: #5d737e;
+    --accent1-color: #7fc6a4;
+    --accent2-color: #FAF33E;
+
+    --heading-font:'Roboto Condensed',serif;
+    --paragraph-font:'Oswald',serif;
+
+    --nav-background-color:#D6F8D6;
+    --nav-link-color:#5d737e;
+    --nav-hover-link-color:#FAF33E;
+    --nav-hover-background-color: #D6f8d6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+    border-bottom: darkblue;
+    display:flex;
+    justify-content: center;
+}
+
+.grid {
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 20% 20% 20% 20% ;
+    gap: 3px;
+}
+.logo{
+    grid-column:1/4;
+    grid-row:1/5;
+}
+.one {
+    grid-column: 6/7;
+    grid-row:3/5;
+}
+.two{
+    grid-column: 7/8;
+    grid-row: 3/5;
+}
+.three{
+    grid-column: 8/9;
+    grid-row: 3/5;
+}
+.four{
+    grid-column: 9/10;
+    grid-row: 3/5;
+}
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    padding:1rem;
+}
+
+
+article  {
+    margin: 25px;
+    border-style:solid;
+
+}
+
+img{
+    display:flex;
+    justify-content: Center;
+    width:250px;
+    height: auto;
+}
+
+button{
+    margin:1rem;
+    background-color: #7fc6a4;
+    color:black;
+    border:none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size:1.2rem;
+}
+button:hover{
+    background-color:#FAF33E;
+}
+legend{
+    padding:0.5rem;
+    color:navy;
+    font-size: 1.3em;
+}
