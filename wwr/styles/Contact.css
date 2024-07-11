@@ -107,12 +107,10 @@ input[type="radio"]{
     flex-direction:column;
 }
 .info1{
-    size:2em;
     display:flex;
     margin:1rem;
 }
 .info2{
-    size:2em;
     display:flex;
     margin: 1rem;
 }
