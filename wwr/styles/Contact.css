@@ -115,7 +115,7 @@ figure img{
     width:250px;
     height:auto;
 }
-.socials{
+.socials img{
     display:flex;
     justify-content:left;
     width:100px;
