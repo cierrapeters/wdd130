@@ -7,7 +7,7 @@
         <title>Contact Us</title>
         <meta name="description" content=" Page to allow you to contact Dry Oar with any questions or request">
         <meta name="author" content="Cierra Peters">
-        <link href="styles/rafting.css" rel="stylesheet">
+        <link href="styles/Contact.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -25,9 +25,9 @@
         <main>
             <article>
             <h1> Contact info</h1>
-            <h3> Address:Crocodile Park Compound, Riverfront Corporate City, Ma-a Talomo, Davao City, 8000 Davao del Sur</h3>
-            <h3>Phone Number:0995-550-8488</h3>
-            <h3>Email:dryoar@gmail.com</h3>
+            <h4> Address:Crocodile Park Compound, Riverfront Corporate City,<br> Ma-a Talomo, Davao City, 8000 Davao del Sur</h4>
+            <h4>Phone Number: 0995-550-8488</h4>
+            <h4>Email: dryoar@gmail.com</h4>
             <!--Map-->
            
          <form>
@@ -43,14 +43,19 @@
                 </div>
                 <div>
                 <label for="contact">What do you need?</label>
-                <input type="radio" id="General" name="General" value="General Inquiry" > 
+                <input type="radio" id="General" name="General"> 
+                <label for="General">General Inquiry</label>
                 <input type="radio" id="Reservation" name="Reservation" value="Reservation">
+                <label for="General">Reservation Request</label>
                 <input type="radio" id="Suggestion" name="Suggestion" value="Suggestion">
+                <label for="General">Suggestion for Improvements</label>
                 </div>
                 <textarea id="question" name="question" rows="10" placeholder= "Write your message here"></textarea>
-               <input type="checkbox" id="subscribe" name="subscribe" value="Please subscribe me to the monthly newsletter"></checkbox> 
+                <br>
+               <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="Subscribe"> Please subscribe me to the monthly newsletter</label>
             </fieldset>
-            <button type="submit"> Submit Poll</button>
+            <button type="Send"> Send Message</button>
          </form>
              
         </main>

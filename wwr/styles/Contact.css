@@ -90,3 +90,17 @@ legend{
     color:navy;
     font-size: 1.3em;
 }
+input [type="radio"]{
+    display: flex;
+    flex-direction: column;
+}
+label [for="username"]{
+    display:flex;
+    align-items:center;
+    size: 1.25em;
+}
+label [for="useremail"]{
+    display:flex;
+    align-items:center;
+    size:1.25em;
+}
