@@ -123,6 +123,8 @@ input[type="radio"]{
     height:auto;
 }
 .socials img{
+    display:inline-flex;
+    justify-content:right;
     width:75px;
     height:auto;
 }
