@@ -103,10 +103,15 @@ input[type="radio"]{
     display:flex;
     flex-direction:column;
 }
-.info{
+.info1{
     size:2em;
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
+}
+.info2{
+    size:2em;
+    display:flex;
+    justify-content: space-around;
 }
 
 figure img{
