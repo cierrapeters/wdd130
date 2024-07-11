@@ -118,9 +118,9 @@ input[type="radio"]{
     margin: 3rem;
 }
 
-figure img{
+.employees{
     display:flex;
-    justify-content: space-around;
+    justify-content: center;
     width:250px;
     height:auto;
 }
@@ -138,6 +138,4 @@ fieldset{
 }
 figcaption{
     font-size:medium;
-    display: flex;
-    align-items:center;
 }
