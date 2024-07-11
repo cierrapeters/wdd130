@@ -73,7 +73,6 @@ nav a {
 
 }
 
-
 article  {
     margin:25px;
     border-style:solid;
@@ -110,23 +109,22 @@ input[type="radio"]{
 .info1{
     size:2em;
     display:flex;
-    margin:3rem;
+    margin:1rem;
 }
 .info2{
     size:2em;
     display:flex;
-    margin: 3rem;
+    margin: 1rem;
 }
 
 .employees{
     display:flex;
-    justify-content: right;
     width:250px;
     height:auto;
 }
 .socials img{
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content:right;
     width:75px;
     height:auto;
