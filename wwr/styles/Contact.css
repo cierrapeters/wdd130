@@ -101,11 +101,13 @@ input[type="radio"]{
 }
 .info{
     size:2em;
+    display:flex;
+    justify-content: space-around;
 }
 
 figure img{
     display:flex;
-    flex-direction:row;
+    justify-content: space-around;
     width:250px;
     height:auto;
 }
