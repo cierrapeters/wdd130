@@ -126,8 +126,9 @@ input[type="radio"]{
 }
 .socials img{
     display:flex;
+    flex-direction: row;
     justify-content:right;
-    width:500px;
+    width:75px;
     height:auto;
 }
 nav img{
