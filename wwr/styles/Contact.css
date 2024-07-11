@@ -15,10 +15,16 @@
     --nav-hover-background-color: #D6f8d6;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1{
     font-family: var(--heading-font);
     color: var(--secondary-color);
-    border-bottom: darkblue;
+    border-bottom: 2px solid #5d737e;
+    display:flex;
+    justify-content: center; 
+} 
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
     display:flex;
     justify-content: center;
 }
@@ -81,6 +87,7 @@ button{
     border-radius: .5rem;
     padding: .75rem;
     font-size:1.2rem;
+    justify-content: center;
 }
 button:hover{
     background-color:#FAF33E;
@@ -90,16 +97,16 @@ legend{
     color:navy;
     font-size: 1.3em;
 }
-input [type="radio"]{
-    display: flex;
-    flex-direction: column;
+input[type="radio"]{
+    display:flex;
+    flex-direction:column;
 }
-label [for="username"]{
+label[for="username"]{
     display:flex;
     align-items:center;
     size: 1.25em;
 }
-label [for="useremail"]{
+label[for="useremail"]{
     display:flex;
     align-items:center;
     size:1.25em;
