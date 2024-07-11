@@ -87,6 +87,7 @@ button{
     border-radius: .5rem;
     padding: .75rem;
     font-size:1.2rem;
+    display: flex;
     justify-content: center;
 }
 button:hover{
@@ -116,4 +117,10 @@ figure{
     flex-direction:row;
     width:150px;
     height:auto;
+}
+nav img{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100px;
+    height:auto
 }
