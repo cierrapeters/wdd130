@@ -106,12 +106,12 @@ input[type="radio"]{
 .info1{
     size:2em;
     display:flex;
-    justify-content: space-around;
+    margin:3rem;
 }
 .info2{
     size:2em;
     display:flex;
-    justify-content: space-around;
+    margin: 3rem;
 }
 
 figure img{
@@ -124,7 +124,7 @@ figure img{
     display:flex;
     justify-content:right;
     width:100px;
-    height:auto
+    height:auto;
 }
 nav img{
 width:150px;
