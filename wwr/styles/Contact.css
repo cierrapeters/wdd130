@@ -102,16 +102,12 @@ input[type="radio"]{
     display:flex;
     flex-direction:column;
 }
-label[for="username"]{
+.info{
     display:flex;
     align-items:center;
     size: 1.5em;
 }
-label[for="useremail"]{
-    display:flex;
-    align-items:center;
-    size:1.5em;
-}
+
 figure{
     display:flex;
     flex-direction:row;
