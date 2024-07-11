@@ -117,7 +117,7 @@ figure img{
 }
 .socials img{
     display:flex;
-    justify-content:left;
+    justify-content:right;
     width:100px;
     height:auto
 }
