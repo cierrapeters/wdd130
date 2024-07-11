@@ -120,14 +120,14 @@ input[type="radio"]{
 
 .employees{
     display:flex;
-    justify-content: center;
+    justify-content: right;
     width:250px;
     height:auto;
 }
 .socials img{
     display:flex;
     justify-content:right;
-    width:100px;
+    width:500px;
     height:auto;
 }
 nav img{
