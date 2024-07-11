@@ -72,13 +72,6 @@ article  {
 
 }
 
-img{
-    display:flex;
-    justify-content:Center;
-    width:250px;
-    height:auto;
-}
-
 button{
     margin:1rem;
     background-color:#7fc6a4;
@@ -88,7 +81,7 @@ button{
     padding:.75rem;
     font-size:1.2rem;
     display:flex;
-    justify-content: center;
+    justify-content:center;
 }
 button:hover{
     background-color:#FAF33E;
@@ -103,15 +96,13 @@ input[type="radio"]{
     flex-direction:column;
 }
 .info{
-    display:flex;
-    align-items:center;
-    size:1.5em;
+    size:2em;
 }
 
-figure{
+figure img{
     display:flex;
     flex-direction:row;
-    width:150px;
+    width:250px;
     height:auto;
 }
 footer nav img{
@@ -129,4 +120,6 @@ fieldset{
 }
 figcaption{
     font-size:medium;
+    display: flex;
+    align-items:center;
 }
