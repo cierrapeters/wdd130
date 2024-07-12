@@ -78,7 +78,7 @@ button{
     justify-content:center;
 }
 button:hover{
-    background-color:;
+    background-color:#D6F8D6;
 }
 fieldset{
     Margin:5px;
@@ -116,7 +116,7 @@ input[type="radio"]{
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
-    display:flex;}
+}
 
 .socials{
     display:flex;
