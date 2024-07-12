@@ -31,9 +31,9 @@ h2, h3, h4, h5, h6 {
 
 header {
     display: grid;
-    grid-template-columns: 175px 200px auto;
+    grid-template-columns: 175px auto;
     padding: 2rem;
-    grid-gap: rem;
+    grid-gap: 3rem;
     background-color: #7fc6a4;
 }
 
@@ -44,6 +44,7 @@ header nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
+    flex-direction: row-reverse;
 }
 header nav a {
     display: flex;
