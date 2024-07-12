@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Condensed&display=swap');
+
 
 :root {
     --primary-color:#D6F8D6;
@@ -66,6 +66,9 @@ article  {
 .map{
     display:flex;
     justify-content:center;
+    width: 800px;
+    height: 300px;
+    
 }
 
 button{
