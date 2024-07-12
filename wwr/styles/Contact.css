@@ -104,7 +104,11 @@ input[type="radio"]{
     height:auto;
 }
 .socials img{
-    display:inline-flex;
+    display:grid;
+    grid-template-columns: 8fr;
+    padding: 2rem;
+    grid-gap: 1rem;
+    background-color: #7fc6a4;
     align-items: flex-end;
     justify-content:right;
     width:75px;
