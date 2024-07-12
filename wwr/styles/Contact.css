@@ -40,19 +40,19 @@ header {
 header img {
     width: 150px;
 }
-nav {
+header nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display:flex;
 }
-nav a {
+header nav a {
     display: flex;
     justify-content: left;
     color:black;
     text-decoration: none;
     padding:1rem;
 }
-nav a:hover {
+header nav a:hover {
     color:#5d737e;
 }
 
