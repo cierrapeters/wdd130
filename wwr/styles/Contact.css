@@ -107,9 +107,8 @@ input[type="radio"]{
 
 .socials img{
     display:flex;
-    align-items: flex-end;
     justify-content:right;
-    width:375px;
+    width:75px;
     height:auto;
 }
 nav img{
