@@ -104,7 +104,8 @@ input[type="radio"]{
 .employees{
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-around
+    ;
 }
 .employees figure{
     width:250px;
