@@ -99,13 +99,14 @@ input[type="radio"]{
 
 .employees img{
     display:flex;
+    justify-content: center;
     width:250px;
     height:auto;
 }
 .socials img{
     display:inline-flex;
     align-items: flex-end;
-    
+    justify-content:right;
     width:75px;
     height:auto;
 }
