@@ -67,6 +67,8 @@ article  {
 }
 
 button{
+    display:flex;
+    justify-content:center;
     margin:1rem;
     background-color:#7fc6a4;
     color:black;
@@ -74,8 +76,7 @@ button{
     border-radius:.5rem;
     padding:.75rem;
     font-size:1.2rem;
-    display:flex;
-    justify-content:center;
+    
 }
 button:hover{
     background-color:#D6F8D6;
