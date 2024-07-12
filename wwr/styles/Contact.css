@@ -33,12 +33,12 @@ header {
     display: grid;
     grid-template-columns: 175px auto;
     padding: 2rem;
-    grid-gap: 1rem;
+    grid-gap: 0rem;
     background-color: #7fc6a4;
 }
 
 header img {
-    width: 150px;
+    width: 175px;
 }
 header nav {
     background-color: var(--nav-background-color);
