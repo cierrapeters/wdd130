@@ -101,6 +101,10 @@ input[type="radio"]{
     margin: 1rem;
 }
 
+.employees{
+    display: flex;
+    flex-direction: row;
+}
 .employees img{
     display:flex;
     justify-content: center;
@@ -110,6 +114,10 @@ input[type="radio"]{
 .five{
     display: flex;
     justify-content: center;
+}
+.socials{
+    display:flex;
+    flex-direction: row;
 }
 .socials img{
     display: flex;
