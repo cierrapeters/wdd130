@@ -113,12 +113,18 @@ input[type="radio"]{
     display: flex;
     justify-content: center;
 }
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display:flex;}
+
 .socials{
     display:flex;
     flex-direction: row-reverse;
 }
 .socials img{
     width:75px;
+    margin: 1px;
     height:auto;
 }
 
