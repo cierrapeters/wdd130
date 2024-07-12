@@ -104,8 +104,9 @@ input[type="radio"]{
 .employees{
     display:flex;
     flex-direction:row;
+    justify-content: space-around;
 }
-.employees img{
+.employees figure{
     width:250px;
     height:auto;
 }
@@ -120,11 +121,11 @@ nav {
 
 .socials{
     display:flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 .socials img{
     width:75px;
-    margin: 1px;
+    margin: 5px;
     height:auto;
 }
 
