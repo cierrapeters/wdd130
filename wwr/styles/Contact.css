@@ -116,7 +116,6 @@ input[type="radio"]{
 }
 .socials{
     display:flex;
-    flex-direction:row;
     align-items:left;
 }
 .socials img{
