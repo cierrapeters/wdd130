@@ -31,9 +31,9 @@ h2, h3, h4, h5, h6 {
 
 header {
     display: grid;
-    grid-template-columns: 175px auto;
+    grid-template-columns: 175px 200px auto;
     padding: 2rem;
-    grid-gap: 0rem;
+    grid-gap: rem;
     background-color: #7fc6a4;
 }
 
