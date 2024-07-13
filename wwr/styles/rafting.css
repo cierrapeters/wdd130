@@ -88,12 +88,13 @@ header nav a:hover {
     right: 0;
     padding: 1rem;
     margin: 0 auto;
-
-
 }
 .hero article img {
     float: right;
-    width: 150px;  
+    width: 250px;
+    height: auto; 
+    padding: 5px; 
+
 }
 .hero h1{
     display:flex;
@@ -155,6 +156,7 @@ section{
 
 p{
     margin:3px;
+    font-size: medium;
 }
 button{
     display:flex;
