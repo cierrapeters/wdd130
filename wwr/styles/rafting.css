@@ -78,9 +78,12 @@ article  {
     height:300px;
     
 }
-
+.photo{
+    display:grid;
+    grid-template-columns: 5fr;
+}
 .photo figure{
-    width:125px;
+    width:1fr;
     height: auto;
     border: 1px solid black;
 }
@@ -125,7 +128,7 @@ input[type="radio"]{
     margin: 1rem;
 }
 
-.employees, .photo{
+.employees{
     display:flex;
     flex-direction:row;
     justify-content: space-around;
