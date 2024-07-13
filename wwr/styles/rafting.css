@@ -113,7 +113,7 @@ article  {
     display:grid;
     grid-template-columns: 5fr;
 }
-.photos figure{
+.photos figure img{
     width:100px;
     height: auto;
 }
