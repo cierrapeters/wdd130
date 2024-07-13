@@ -127,6 +127,22 @@ section{
     font-size: 1.5rem;
     margin:3px;
 }
+.testimonals{
+    display:grid;
+    grid-template-columns: 3fr;
+    grid-gap: 1rem;
+    background-color: #FAF33E;
+    padding:10px;
+}
+.test1{
+    background-color: #7fc6a4;
+}
+.test2{
+    background-color: #7fc6a4;
+}
+.test3{
+    background-color: #7fc6a4;
+}
 
 p{
     margin:3px;
