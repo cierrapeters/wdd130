@@ -125,9 +125,12 @@ article  {
 section{
     background-color: #7fc6a4;
     font-size: 1.5rem;
-    margin: 3px;
+    margin:3px;
 }
 
+p{
+    margin:3px;
+}
 button{
     display:flex;
     justify-content:center;
