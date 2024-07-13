@@ -119,11 +119,10 @@ input[type="radio"]{
     margin: 1rem;
 }
 
-.employees .photo{
+.employees, .photo{
     display:flex;
     flex-direction:row;
-    justify-content: space-around
-    ;
+    justify-content: space-around;
 }
 .employees figure{
     width:250px;
