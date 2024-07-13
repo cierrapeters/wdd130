@@ -114,6 +114,10 @@ article  {
     height:300px;
     
 }
+.history{
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
 .photos{
     display:flex;
     flex-direction: row;
