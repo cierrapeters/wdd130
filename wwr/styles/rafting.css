@@ -73,14 +73,14 @@ article  {
     height:300px;
     
 }
-.photo{
-    display:flex;
-    justify-content: space-around;  
-}
 
 .photo figure{
-    width:200px;
+    width:125px;
+    height: auto;
     border: 1px solid black;
+}
+section{
+    background-color: #7fc6a4;
 }
 
 button{
@@ -119,7 +119,7 @@ input[type="radio"]{
     margin: 1rem;
 }
 
-.employees{
+.employees .photo{
     display:flex;
     flex-direction:row;
     justify-content: space-around
