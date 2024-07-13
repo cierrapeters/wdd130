@@ -132,6 +132,11 @@ section{
     font-size: 1.5rem;
     margin:3px;
 }
+.davaowhole{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
 .testimonals{
     display:grid;
     grid-template-columns: auto auto auto;
