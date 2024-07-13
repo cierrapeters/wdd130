@@ -78,11 +78,11 @@ article  {
     height:300px;
     
 }
-.photo{
+.photos{
     display:grid;
     grid-template-columns: 5fr;
 }
-.photo figure{
+.photos figure{
     width:1fr;
     height: auto;
     border: 1px solid black;
