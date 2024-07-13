@@ -22,7 +22,7 @@ h1{
     display:flex;
     justify-content:center; 
 } 
-table, th,td{
+th,td{
     border:1px solid black;
 }
 table{
