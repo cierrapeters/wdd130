@@ -73,6 +73,15 @@ article  {
     height:300px;
     
 }
+.photo{
+    display:flex;
+    justify-content: space-around;  
+}
+
+.photo figure{
+    width:200px;
+    border: 1px solid black;
+}
 
 button{
     display:flex;
