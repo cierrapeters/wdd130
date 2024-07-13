@@ -129,19 +129,28 @@ section{
 }
 .testimonals{
     display:grid;
-    grid-template-columns: 3fr;
+    grid-template-columns: auto auto auto;
     grid-gap: 1rem;
-    background-color: #FAF33E;
+    background-color:#7fc6a4;
     padding:10px;
 }
 .test1{
-    background-color: #7fc6a4;
+    background-color:#FAF33E ;
+    color:#5d737e;
+    text-align: center;
+    border:1px #5d737e solid;
 }
 .test2{
-    background-color: #7fc6a4;
+    background-color: #FAF33E;
+    color:#5d737e;
+    text-align: center;
+    border:1px #5d737e solid;
 }
 .test3{
-    background-color: #7fc6a4;
+    background-color: #FAF33E;
+    color: #5d737e;
+    text-align: center;
+    border:1px #5d737e solid;
 }
 
 p{
