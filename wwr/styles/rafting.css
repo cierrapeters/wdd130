@@ -130,24 +130,24 @@ section{
 .testimonals{
     display:grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 1rem;
+    grid-gap: 3rem;
     background-color:#7fc6a4;
     padding:10px;
 }
 .test1{
-    background-color:#FAF33E ;
+    background-color:#D6F8D6 ;
     color:#5d737e;
     text-align: center;
     border:1px #5d737e solid;
 }
 .test2{
-    background-color: #FAF33E;
+    background-color:#D6F8D6;
     color:#5d737e;
     text-align: center;
     border:1px #5d737e solid;
 }
 .test3{
-    background-color: #FAF33E;
+    background-color:#D6F8D6;
     color: #5d737e;
     text-align: center;
     border:1px #5d737e solid;
@@ -173,6 +173,7 @@ button:hover{
 }
 fieldset{
     Margin:5px;
+    border:2px black solid;
 }
 legend{
     padding:0.5rem;
