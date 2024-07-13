@@ -110,11 +110,12 @@ article  {
     
 }
 .photos{
-    display:grid;
-    grid-template-columns: 5fr;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .photos figure img{
-    width:100px;
+    width:150px;
     height: auto;
 }
 section{
