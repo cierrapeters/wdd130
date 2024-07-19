@@ -97,8 +97,9 @@ header nav a:hover {
 
 }
 .button{
-    display: flex;
+    display:flex;
     justify-content:center;}
+
 .hero h1{
     display:flex;
     justify-content: center;
